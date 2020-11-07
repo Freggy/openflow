@@ -1,0 +1,6 @@
+version: '3'
+services:
+  ovs:
+    image: openvswitch/ovs:1.12.0_debian
+    ports:
+      - "6653:6653"
