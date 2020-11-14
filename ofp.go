@@ -1,4 +1,4 @@
-package main
+package openflow
 
 // Header of each openflow message. Header is 8 byte in lengh
 type Header struct {
